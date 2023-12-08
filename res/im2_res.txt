@@ -1,0 +1,261 @@
+PS D:\Universidad\IA 2\CI5438-Proyecto3> python.exe .\imagesMeans.py 2.jpg 2 300
+Centroides iniciales
+[[255  98  59]
+ [ 62   0   1]]
+Centroides convergen
+Centroides
+[[181 138 128]
+ [ 83  59  69]]
+Asignados a centroide (181, 138, 128): 156705
+Asignados a centroide (83, 59, 69): 264095
+PS D:\Universidad\IA 2\CI5438-Proyecto3> python.exe .\imagesMeans.py 2.jpg 3 300
+Centroides iniciales
+[[ 76  85  80]
+ [245 186  20]
+ [  8  28 151]]
+Centroides convergen
+Centroides
+[[121  79  88]
+ [191 157 139]
+ [ 47  36  49]]
+Asignados a centroide (121, 79, 88): 202947
+Asignados a centroide (191, 157, 139): 108316
+Asignados a centroide (47, 36, 49): 109537
+PS D:\Universidad\IA 2\CI5438-Proyecto3> python.exe .\imagesMeans.py 2.jpg 4 300
+Centroides iniciales
+[[220  30   0]
+ [ 23  41 201]
+ [252  76  52]
+ [ 84 121  52]]
+Centroides convergen
+Centroides
+[[ 37  27  39]
+ [152  96 104]
+ [196 175 147]
+ [ 94  66  76]]
+Asignados a centroide (37, 27, 39): 72783
+Asignados a centroide (152, 96, 104): 121124
+Asignados a centroide (196, 175, 147): 77258
+Asignados a centroide (94, 66, 76): 149635
+PS D:\Universidad\IA 2\CI5438-Proyecto3> python.exe .\imagesMeans.py 2.jpg 5 300
+Centroides iniciales
+[[250  67  23]
+ [251 254  49]
+ [101  87  84]
+ [  0   0  50]
+ [ 45 111  14]]
+Centroides convergen
+Centroides
+[[172 107 113]
+ [198 187 152]
+ [115  78  86]
+ [ 29  20  30]
+ [ 68  53  66]]
+Asignados a centroide (172, 107, 113): 89246
+Asignados a centroide (198, 187, 152): 60897
+Asignados a centroide (115, 78, 86): 135347
+Asignados a centroide (29, 20, 30): 48369
+Asignados a centroide (68, 53, 66): 86941
+PS D:\Universidad\IA 2\CI5438-Proyecto3> python.exe .\imagesMeans.py 2.jpg 10 300
+Centroides iniciales
+[[102 102  94]
+ [149 161 255]
+ [ 91 119 255]
+ [119 120 102]
+ [196  95  15]
+ [127   0   0]
+ [169 182 164]
+ [ 80 105 255]
+ [112 113  97]
+ [148   0   0]]
+Centroides convergen
+Centroides
+[[ 55  43  58]
+ [199 210 203]
+ [187 126 125]
+ [128  85  92]
+ [ 76  59  71]
+ [ 15  10  16]
+ [198 187 136]
+ [163  97 106]
+ [103  71  80]
+ [ 36  26  37]]
+Asignados a centroide (55, 43, 58): 37796
+Asignados a centroide (199, 210, 203): 15663
+Asignados a centroide (187, 126, 125): 45843
+Asignados a centroide (128, 85, 92): 67305
+Asignados a centroide (76, 59, 71): 50039
+Asignados a centroide (15, 10, 16): 17833
+Asignados a centroide (198, 187, 136): 37160
+Asignados a centroide (163, 97, 106): 51477
+Asignados a centroide (103, 71, 80): 70338
+Asignados a centroide (36, 26, 37): 27346
+PS D:\Universidad\IA 2\CI5438-Proyecto3> python.exe .\imagesMeans.py 2.jpg 20 300
+Centroides iniciales
+[[255  58  49]
+ [ 57  57  55]
+ [186 200 255]
+ [ 31  50 171]
+ [ 57  68 174]
+ [155  77   3]
+ [216  76   1]
+ [ 79  83 174]
+ [255  26   4]
+ [250  55  23]
+ [251  65  70]
+ [ 21  63   0]
+ [ 73  99 248]
+ [101 109  85]
+ [226   5  22]
+ [  3  19 154]
+ [  2   8 144]
+ [251  98  80]
+ [120 189   0]
+ [ 14  26 148]]
+Centroides convergen
+Centroides
+[[157  94 102]
+ [  8   5   7]
+ [196 209 226]
+ [ 30  20  30]
+ [ 77  59  71]
+ [ 22  15  23]
+ [ 54  41  57]
+ [127  86  93]
+ [ 45  33  47]
+ [111  74  82]
+ [178 111 118]
+ [  1   1   1]
+ [193 144 132]
+ [ 62  50  66]
+ [ 36  27  39]
+ [ 12   8  12]
+ [  5   3   3]
+ [201 202 138]
+ [ 93  67  77]
+ [ 16  11  17]]
+Asignados a centroide (157, 94, 102): 42168
+Asignados a centroide (8, 5, 7): 2045
+Asignados a centroide (196, 209, 226): 10474
+Asignados a centroide (30, 20, 30): 9623
+Asignados a centroide (77, 59, 71): 31063
+Asignados a centroide (22, 15, 23): 6522
+Asignados a centroide (54, 41, 57): 18663
+Asignados a centroide (127, 86, 93): 52413
+Asignados a centroide (45, 33, 47): 13214
+Asignados a centroide (111, 74, 82): 50637
+Asignados a centroide (178, 111, 118): 38054
+Asignados a centroide (1, 1, 1): 595
+Asignados a centroide (193, 144, 132): 34640
+Asignados a centroide (62, 50, 66): 22876
+Asignados a centroide (36, 27, 39): 10963
+Asignados a centroide (12, 8, 12): 2817
+Asignados a centroide (5, 3, 3): 1608
+Asignados a centroide (201, 202, 138): 30357
+Asignados a centroide (93, 67, 77): 38234
+Asignados a centroide (16, 11, 17): 3834
+PS D:\Universidad\IA 2\CI5438-Proyecto3> python.exe .\imagesMeans.py 2.jpg 40 300
+Centroides iniciales
+[[ 83  90 109]
+ [128 175  37]
+ [ 62  63  57]
+ [215  51   0]
+ [162  74   3]
+ [102 138 232]
+ [182 204 255]
+ [255 115  25]
+ [ 90  42  38]
+ [255 170  61]
+ [ 88  90  85]
+ [251 160  30]
+ [ 29   9   0]
+ [135 167 228]
+ [ 54  79 182]
+ [105 108  91]
+ [  0   1   0]
+ [ 82  79  74]
+ [127   0   7]
+ [254  46   0]
+ [ 94 131 238]
+ [254  82  10]
+ [  7  13 127]
+ [251  61  71]
+ [189   8   0]
+ [ 60  60  58]
+ [ 31  32  26]
+ [255 118 101]
+ [ 28 101  12]
+ [254  88   2]
+ [111 161  88]
+ [ 93  88  85]
+ [ 39  75  29]
+ [ 80  80  68]
+ [255  85  91]
+ [ 11  11  11]
+ [ 80  81  73]
+ [255  25   2]
+ [247 121  83]
+ [ 91  96  76]]
+Centroides convergen
+Centroides
+[[  1   1   0]
+ [ 22  15  23]
+ [  0   0   0]
+ [  0   0   0]
+ [  0   0   0]
+ [159  94 103]
+ [195 210 231]
+ [ 63  51  66]
+ [  0   0   0]
+ [193 147 133]
+ [  0   0   0]
+ [ 95  68  78]
+ [  0   0   0]
+ [202 203 140]
+ [ 15  10  16]
+ [ 10   6   9]
+ [  0   0   0]
+ [  0   0   0]
+ [  0   0   0]
+ [  6   4   4]
+ [128  87  94]
+ [ 36  26  39]
+ [  0   0   0]
+ [ 54  41  57]
+ [  0   0   0]
+ [  0   0   0]
+ [  0   0   0]
+ [179 112 119]
+ [  0   0   0]
+ [ 30  20  30]
+ [ 45  33  47]
+ [  0   0   0]
+ [  0   0   0]
+ [  0   0   0]
+ [ 79  60  71]
+ [  0   0   0]
+ [  0   0   0]
+ [  3   2   2]
+ [115  75  83]
+ [  0   0   0]]
+Asignados a centroide (1, 1, 0): 215
+Asignados a centroide (22, 15, 23): 7350
+Asignados a centroide (0, 0, 0): 8
+Asignados a centroide (159, 94, 103): 41523
+Asignados a centroide (195, 210, 231): 9508
+Asignados a centroide (63, 51, 66): 25554
+Asignados a centroide (193, 147, 133): 34626
+Asignados a centroide (95, 68, 78): 43885
+Asignados a centroide (202, 203, 140): 29598
+Asignados a centroide (15, 10, 16): 4929
+Asignados a centroide (10, 6, 9): 2560
+Asignados a centroide (6, 4, 4): 1926
+Asignados a centroide (128, 87, 94): 49611
+Asignados a centroide (36, 26, 39): 11394
+Asignados a centroide (54, 41, 57): 18663
+Asignados a centroide (179, 112, 119): 37556
+Asignados a centroide (30, 20, 30): 8780
+Asignados a centroide (45, 33, 47): 13214
+Asignados a centroide (79, 60, 71): 31888
+Asignados a centroide (3, 2, 2): 845
+Asignados a centroide (115, 75, 83): 47167
