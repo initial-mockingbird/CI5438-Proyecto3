@@ -2,12 +2,17 @@
 
 ## Detalles de la implementacion.
 
-Nuestra implementacion hace distincion entre 3 tipos de capas:
+El algoritmo de k-means no especifica como lidiar en las siguientes situaciones:
 
-<p align="center">
-  <img src="./imgs/mc_1c.PNG.PNG" alt="Clasificador multiclase de 1 capa: error por iteracion"/>
-   <figcaption>Error por iteracion para el clasificador multiclase con una capa oculta</figcaption>
-</p>
+- Un centroide no tiene ningún elemento asignado.
+- Los centroides iniciales están repetidos.
+- Los centroides parecen no converger.
+
+Por lo que en nuestra implementaición del algoritmo decidimos:
+
+- Conservar estos centroides a pesar de que estén vacíos, por lo que nuestro algoritmo genera a los sumo $k$ centroides.
+- Mantener estos centroides, sin embargo, esta decisión surge más por una incapacidad de no poder asegurar $k$ centroides iniciales aleatorios con distintos valores, por lo que queda como ejercicio para un próximo experimento con este algoritmo.
+- Colocamos un máximo de iteraciones en caso de que los centroides no convergan en una cantidad de tiempo aceptable.
 
 ## Parte 3: Segmentación de Imagenes
 
@@ -100,6 +105,10 @@ Siendo la primera escogida por su simplicidad y estar compuesta por únicamente 
    <figcaption style="text-align: center;">Imágen 2 k=40</figcaption>
 </p>
 
-En general, podemos observar que mientras tengamos una mayor cantidad $k$ de clusters, la imagen generada tra aplicar k-means va a tener mayor detalle y profundidad de colores, sin embargo destaca la paleta de colores obtenidas para ambas imágenes. Para la imagen 1, la paleta de colores obtenida parece corresponder a aquellos tonos que pueden encontrarse de manera significativa en esta, y unicamente para $k<=5$ obtenemos coloraciones que no corresponden a la imagen, probablemente debido a que no se crean suficientes clusters para agrupar los distintos colores de la imagen en sus propios grupos, teniendo que generarse así un color calculado con la media. Adicionalmente, los bordes de las figuras parecen siempre variar entre más de un cluster, generando una especie de ruido delimitador (curiosamente como una especie de edge detection) en la frontera entre 2 colores que parece ser consecuencia de que los píxeles en el contorno de los círculos probablemente tengan un degradado imperceptible para el ojo humano. 
+### Observaciones
+
+En general, podemos observar que mientras tengamos una mayor cantidad $k$ de clusters, la imagen generada tra aplicar k-means va a tener mayor detalle y profundidad de colores, sin embargo destaca la paleta de colores obtenidas para ambas imágenes. Para la imagen 1, la paleta de colores obtenida parece corresponder a aquellos tonos que pueden encontrarse de manera significativa en esta, y unicamente para $k<=5$ obtenemos coloraciones que no corresponden a la imagen, probablemente debido a que no se crean suficientes clusters para agrupar los distintos colores de la imagen en sus propios grupos, teniendo que generarse así un color calculado con la media. 
+
+Adicionalmente, los bordes de las figuras parecen siempre variar entre más de un cluster, generando una especie de ruido delimitador (curiosamente como una especie de edge detection) en la frontera entre 2 colores que parece ser consecuencia de que los píxeles en el contorno de los círculos probablemente tengan un degradado imperceptible para el ojo humano. 
 
 Los resultados de la imagen 2 tienen un comportamiento similar a la primera pero con un efecto mucho más notorio debido a la extrema variedad y complejidad de los colores disponibles en esta. Al haber una gran variedad de colores en la imagen, no se crea una cantidad de clusters suficientemente representativa para todas las coloraciones, por lo que los centroides obtenidos tienen un coloración marrón. Una analogía que parece adecuada para los colores obtenidos, es que si tomamos pinturas/plastilinas de distintos colores y las mezclamos, vamos a obtener un color grisaceo/marrón.
